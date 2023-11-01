@@ -1,0 +1,109 @@
+.showing-tab {
+
+    border: 2px solid;
+    border-color: black;
+    box-sizing: border-box; 
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container {
+
+    border: 2px solid;
+    border-color: yellow;
+    box-sizing: border-box; 
+    text-align: center;
+
+}
+
+.thumbnail {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+.thumbnail-large {
+
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    border: 1px solid;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.listName {
+    font-size: large;
+    font-weight: bold;
+}
+.listElement {
+    border: 1px solid;
+    margin: auto;
+    width: 50;
+    height: 50;
+}
+.showResult_text {
+    text-align: center;
+}
+.showResult_next {
+    margin-left: 50px; /* Push this element to the right */
+}
+
+.flex_container {
+    display: flex;
+}
+
+.heading {
+    font-size: x-large;
+    border: 1px;
+    text-align: center;
+    border: 1px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.subheading {
+    font-size: x-large;
+    border: 1px;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 70px;
+}
+
+.details {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+.rowheading {
+    font-size: large;
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+.rowValues {
+    font-weight: bold;
+}
+
+.typesValues {
+    padding-right: 10px;
+    font-weight: bold;
+    
+}
+
+.label-types
+{
+  margin-right:8px;
+  font-weight:bold;
+}
+
+.searchType {
+    font-size: large;
+}
+
+.submitButton {
+    margin-left: 8px;
+}

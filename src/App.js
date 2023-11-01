@@ -1,24 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/Container';
+import './ComponentStyles.css'
+import Container from './components/Container';
+import DisplayDetails from './components/DisplayDetail';
+import SearchComponent from './components/SearchPokemon';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Container></Container>}></Route>
+        <Route path='pokemonDetails/:id' element={<DisplayDetails/>}></Route>
+        <Route path='pokemonSearch/' element={<SearchComponent/>}></Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
